@@ -23,7 +23,7 @@ function initPreloader() {
         window.addEventListener('load', function () {
             setTimeout(function () {
                 preloader.classList.add('hidden');
-            }, 2000);
+            }, 500);
         });
     }
 }
